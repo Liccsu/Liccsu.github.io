@@ -1,0 +1,17 @@
+{
+  "name": "vuepress-theme-reco-blog",
+  "version": "2.0.0",
+  "description": "Blog for vuepress-theme-reco@2.x.",
+  "repository": "git@github.com:Liccsu/Liccsu.github.io.git",
+  "author": "Liccsu <liccsu@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "start": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "dependencies": {
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-theme-reco": "2.0.0-rc.5"
+  }
+}
