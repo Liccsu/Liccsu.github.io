@@ -12,7 +12,7 @@ export default defineUserConfig({
     authorAvatar: "/head.png",
     docsRepo: "https://github.com/Liccsu/Liccsu.github.io",
     docsBranch: "main",
-    docsDir: "docs",
+    // docsDir: "docs",
     lastUpdatedText: "",
     // series 为原 sidebar
     // series: {
