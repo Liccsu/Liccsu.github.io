@@ -27,7 +27,7 @@ categories:
 
 你可以想象内部操作如下:
 
-```c++
+```cpp
 // nums 是以“引用”方式传递的。也就是说，不对实参做任何拷贝
 int len = removeDuplicates(nums);
 
@@ -42,7 +42,7 @@ for (int i = 0; i < len; i++) {
 
 **示例 1：**
 
-```c++
+```cpp
 输入：nums = [1,1,1,2,2,3]
 输出：5, nums = [1,1,2,2,3]
 解释：函数应返回新长度 length = 5, 并且原数组的前五个元素被修改为 1, 1, 2, 2, 3。 不需要考虑数组中超出新长度后面的元素。
@@ -50,7 +50,7 @@ for (int i = 0; i < len; i++) {
 
 **示例 2：**
 
-```c++
+```cpp
 输入：nums = [0,0,1,1,1,1,2,3,3]
 输出：7, nums = [0,0,1,1,2,3,3]
 解释：函数应返回新长度 length = 7, 并且原数组的前七个元素被修改为 0, 0, 1, 1, 2, 3, 3。不需要考虑数组中超出新长度后面的元素。
@@ -72,7 +72,7 @@ for (int i = 0; i < len; i++) {
 
 ### 代码：
 
-```c++
+```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -97,7 +97,7 @@ public:
 
 ### 代码：
 
-```c++
+```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -118,7 +118,7 @@ public:
 
 如果把上面的`for`循环换成简洁的C++风格，那么就是这样：
 
-```c++
+```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -135,7 +135,7 @@ public:
 
 最后拓展一下，按照上面的思路，那么如果是要求重复不超过`k`次，那么就应该是这样：
 
-```c++
+```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums, int k) {
