@@ -18,7 +18,7 @@ categories:
 
 **示例 1:**
 
-```
+```cpp
 输入: nums = [1,2,3,4,5,6,7], k = 3
 输出: [5,6,7,1,2,3,4]
 解释:
@@ -29,7 +29,7 @@ categories:
 
 **示例 2:**
 
-```
+```cpp
 输入：nums = [-1,-100,3,99], k = 2
 输出：[3,99,-1,-100]
 解释: 
@@ -109,7 +109,7 @@ public:
         int len = nums.size();
         int count = 0;
         for (int i = 0; i < len && count < len; i++) { // 起点每次往后挪1位，直到count计数到所有元素都遍历过了
-            int index = i; // 从起点开始转
+        	int index = i; // 从起点开始转
         	int current_value = nums[i]; // 从起点开始转
             do {
                 int next = (index + k) % len; // 下次该从这里转了
