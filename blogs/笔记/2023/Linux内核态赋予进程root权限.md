@@ -1,7 +1,6 @@
 ---
 title: Linux内核态赋予进程root权限
 date: 2023/07/10
-hideComments: false
 tags:
  - Linux
  - kernel

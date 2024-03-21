@@ -1,7 +1,6 @@
 ---
 title: BMP图片格式
 date: 2023/07/08
-hideComments: false
 tags:
  - BMP图片
 categories:
