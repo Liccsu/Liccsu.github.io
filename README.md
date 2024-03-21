@@ -23,5 +23,4 @@ blog:
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
-hideComments: true
 ---

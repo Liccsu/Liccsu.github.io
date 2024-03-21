@@ -103,7 +103,7 @@ export default defineUserConfig({
         verify: true, // 验证码服务
         notify: true,
         recordIP: true,
-        // hideComments: true // 隐藏评论
+        hideComments: true // 隐藏评论
       },
     },
   }),
