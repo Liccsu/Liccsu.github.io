@@ -1,11 +1,11 @@
 ---
 home: true
 modules:
-  - BannerBrand
-  - Blog
+  - CustomBanner
   - MdContent
+  # - Blog
   - Footer
-bannerBrand:
+customBanner:
   bgImage: '/bg.svg'
   title: Liccsu's Blog
   description: 👋Hi, welcome to my blog!
@@ -15,11 +15,12 @@ bannerBrand:
   #   - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
   # socialLinks:
   #   - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
-blog:
+# blog:
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/Liccsu' }
     - { icon: 'Email', link: 'mailto://liccsu@163.com' }
-
+footer:
+  startYear: 2023
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
