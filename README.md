@@ -3,7 +3,7 @@ home: true
 modules:
   - CustomBanner
   - MdContent
-  # - Blog
+  - Blog
   - Footer
 customBanner:
   bgImage: '/bg.svg'
@@ -15,7 +15,7 @@ customBanner:
   #   - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
   # socialLinks:
   #   - { icon: 'LogoGithub', link: 'https://github.com/vuepress-reco/vuepress-theme-reco' }
-# blog:
+blog:
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/Liccsu' }
     - { icon: 'Email', link: 'mailto://liccsu@163.com' }
