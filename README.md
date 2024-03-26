@@ -1,11 +1,11 @@
 ---
 home: true
 modules:
-  - CustomBanner
-  - MdContent
+  - BannerBrand
   - Blog
+  - MdContent
   - Footer
-customBanner:
+bannerBrand:
   bgImage: '/bg.svg'
   title: Liccsu's Blog
   description: 👋Hi, welcome to my blog!
