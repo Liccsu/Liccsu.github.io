@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as n,a as e}from"./app-C4bsKav7.js";const c="/assets/bmp文件格式-Dxsn6HGR.png",o={},_=e("p",null,[e("img",{src:c,alt:"bmp文件格式"})],-1),a=[_];function r(i,l){return t(),n("div",null,a)}const m=s(o,[["render",r],["__file","BMPtupiangeshi.html.vue"]]);export{m as default};
